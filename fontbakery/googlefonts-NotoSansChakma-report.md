@@ -31,14 +31,14 @@ But instead we have got:
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* oiMatra_anusvara.short
-	* oiMatra_maayyaa.short
-	* oiMatra_anusvara
-	* oiMatra_visarga.short
+	* oiMatra_candrabindu
+	* oiMatra_visarga
 	* nnaa_chakma.alt
-	* oiMatra_maayyaa
+	* oiMatra_maayyaa.short
 	* lhaa_chakma.below
-	* oiMatra_visarga and oiMatra_candrabindu
+	* oiMatra_anusvara.short
+	* oiMatra_visarga.short
+	* oiMatra_maayyaa and oiMatra_anusvara
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
 
 
@@ -60,9 +60,9 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ttaa.base 
+	- tthaa.base 
 
-	- And tthaa.base
+	- And ttaa.base
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
