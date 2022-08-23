@@ -456,8 +456,6 @@ lookup subscript_forms {
 
 feature psts {
 lookup post_base {
-	sub virama_chakma aa_chakma by aaMatra_chakma;
-	sub virama_chakma i_chakma by eiMatra_chakma;
 	sub virama_chakma e_chakma by shorteiMatra;
 } post_base;
 
