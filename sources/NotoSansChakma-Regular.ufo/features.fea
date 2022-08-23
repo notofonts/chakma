@@ -647,8 +647,7 @@ lookup prebase_sub {
 } pres;
 
 feature ss01 {
-# notes:
-# Alternate Shapes
+    featureNames { name "Alternate shapes"; };
 lookup stylistic_set1 {
 	sub ghaa_chakma by ghaa_chakma.alt;
 	sub ghaa_chakma.below by ghaa_chakma.alt.below;
@@ -665,16 +664,14 @@ lookup stylistic_set1 {
 } ss01;
 
 feature ss02 {
-# notes:
-# Alternate YAA #2
+    featureNames { name "Alternate yaa"; };
 lookup stylistic_set2 {
 	sub yaa_chakma by yaa_chakma.alt2;
 } stylistic_set2;
 } ss02;
 
 feature ss03 {
-# notes:
-# Alternate UU
+    featureNames { name "Alternate uu"; };
 lookup stylistic_set3 {
 	sub uuMatra_chakma by uuMatra_chakma.alt;
 	sub raa.below_uuMark by raa.below_uuMark.alt;
@@ -685,8 +682,7 @@ lookup stylistic_set3 {
 } ss03;
 
 feature ss04 {
-# notes:
-# Alternate E Matra
+    featureNames { name "Alternate e matra"; };
 lookup stylistic_set4 {
 	sub eMatra_chakma by eMatra_chakma.alt;
 	sub doubleEMatra_chakma by doubleEMatra_chakma.alt;
@@ -694,8 +690,7 @@ lookup stylistic_set4 {
 } ss04;
 
 feature ss05 {
-# notes:
-# Alternate Section Mark
+featureNames { name "Alternate section mark"; };
 lookup stylistic_set5 {
 	sub section_chakma by section_chakma.alt;
 } stylistic_set5;
